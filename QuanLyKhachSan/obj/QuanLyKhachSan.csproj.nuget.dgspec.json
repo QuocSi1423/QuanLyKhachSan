@@ -43,6 +43,10 @@
             "DotNetEnv": {
               "target": "Package",
               "version": "[2.5.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
             }
           },
           "imports": [

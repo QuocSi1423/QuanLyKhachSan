@@ -1,3 +1,6 @@
+using DotNetEnv;
+using QuanLyKhachSan.GUI;
+
 namespace QuanLyKhachSan
 {
     internal static class Program
@@ -8,10 +11,12 @@ namespace QuanLyKhachSan
         [STAThread]
         static void Main()
         {
+            
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run();
+            Application.Run(new Main());
+
         }
     }
 }
