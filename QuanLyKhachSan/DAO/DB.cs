@@ -10,6 +10,7 @@ using MySql.Data.MySqlClient;
 
 namespace QuanLyKhachSan.DAO
 {
+ //meo
     internal class DB
     {
         private MySqlConnection conn;

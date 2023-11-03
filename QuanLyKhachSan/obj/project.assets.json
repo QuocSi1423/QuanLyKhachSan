@@ -5841,19 +5841,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {}
+    "C:\\Users\\Thinkbook 14 G3\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net\\QuanLyKhachSan\\QuanLyKhachSan\\QuanLyKhachSan.csproj",
+      "projectUniqueName": "C:\\Users\\Thinkbook 14 G3\\Documents\\QuanLyKhachSan\\QuanLyKhachSan\\QuanLyKhachSan.csproj",
       "projectName": "QuanLyKhachSan",
-      "projectPath": "D:\\.net\\QuanLyKhachSan\\QuanLyKhachSan\\QuanLyKhachSan.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\.net\\QuanLyKhachSan\\QuanLyKhachSan\\obj\\",
+      "projectPath": "C:\\Users\\Thinkbook 14 G3\\Documents\\QuanLyKhachSan\\QuanLyKhachSan\\QuanLyKhachSan.csproj",
+      "packagesPath": "C:\\Users\\Thinkbook 14 G3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thinkbook 14 G3\\Documents\\QuanLyKhachSan\\QuanLyKhachSan\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Thinkbook 14 G3\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
