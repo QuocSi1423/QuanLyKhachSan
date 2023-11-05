@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyKhachSan.GUI.PANEL
+namespace QuanLyKhachSan.GUI
 {
-    public partial class Menu : UserControl
+    public partial class QuanLyPhong : Form
     {
-        public Menu()
+        public QuanLyPhong()
         {
             InitializeComponent();
-        }
-
-        private void Menu_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

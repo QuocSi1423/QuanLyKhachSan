@@ -13,13 +13,24 @@ namespace QuanLyKhachSan.GUI
     public partial class Main : Form
     {
         Form activeForm = null;
+        Boolean subMenu1Open = false;
         public Main()
         {
             DangNhap dn = new DangNhap();
+            QuanLyPhong qlp = new QuanLyPhong();
             InitializeComponent();
-            OpenForm(dn);
+            OpenForm(qlp);
         }
-
+        public void button_mouse_enter(object sender, EventArgs e)
+        {
+            (sender as Button).BackColor = Color.White;
+            (sender as Button).ForeColor = Color.Black;
+        }
+        public void button_mouse_leave(object sender, EventArgs e)
+        {
+            (sender as Button).BackColor = Color.FromArgb(44, 181, 236);
+            (sender as Button).ForeColor = Color.White;
+        }
         public void OpenForm(Form form)
         {
             if (activeForm != null)
@@ -60,6 +71,31 @@ namespace QuanLyKhachSan.GUI
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void chucNang1Button_Click(object sender, EventArgs e)
+        {
+            subMenu1Open = !subMenu1Open;
+            chucNang1SubMenu.Visible = subMenu1Open;
+            if (subMenu1Open)
+            {
+                chucNang1Button.Text = "Chức năng 1 ▲";
+            }
+            else
+            {
+                chucNang1Button.Text = "Chức năng 1 ▼";
+
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
         {
 
         }
